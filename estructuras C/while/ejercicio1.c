@@ -18,11 +18,19 @@ void mostrar_mensaje(int opcion_evaluar){
 		default:
 			printf("Detengan la produccion, revisen las bolsas!\n");
 	}
+	/* 
+	if(opcion_evaluar == OPC_NO_OPTIMO){
+		printf("DETENGAN TODO! D:\n");
+	}else if(opcion_evaluar == OPC_OPTIMO ){
+		printf("Hasta mañana!");
+	}else{
+		printf("Detengan la produccion, revisen las bolsas!\n");
+	}*/
 }
 
 /*
  *Pre: "opcion_actual" debe corresponde a algun valor de las opciones.
- *Post
+ *Post: "opcion_actual" retorna con el valor de "OPC_NO_OPTIMO" o "OPC_MALA_CONIDICION"
 */
 int comenzar_produccion(int opcion_actual){
 	while( opcion_actual == OPC_OPTIMO ){
