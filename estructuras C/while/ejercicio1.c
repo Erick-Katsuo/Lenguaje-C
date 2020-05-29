@@ -21,7 +21,8 @@ void mostrar_mensaje(int opcion_evaluar){
 }
 
 /*
- *
+ *Pre: "opcion_actual" debe corresponde a algun valor de las opciones.
+ *Post
 */
 int comenzar_produccion(int opcion_actual){
 	while( opcion_actual == OPC_OPTIMO ){
