@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdbool.h>
 
 void informar_resultado(float velocidad_obtenida){
 	if( velocidad_obtenida >= 0.0F && velocidad_obtenida <= 90.0F ){
