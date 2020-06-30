@@ -6,7 +6,7 @@ Crear un vector de numeros enteros como maximo 5
 
 alternativo definirlo con valores o recibir los valores mediante consola
 
-sumar todos sus elementos y muestrar el resultado mediante consola
+sumar todos sus elementos y mostrar el resultado mediante consola
 
 Idem para char y float
 */
