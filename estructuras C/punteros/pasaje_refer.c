@@ -7,7 +7,7 @@ void cambiar_num_contact(int *contacto_actual, int *opcion_recibida){
 		scanf("%i", contacto_actual);// guardarlo en la variable contacto_usuario
 	}
 
-	*opcion_recibida = 35; // cambie el 1 por el 35
+	*opcion_recibida = 35; // cambia el 1 por el 35
 
 	printf("Direccion de memoria que contiene contacto_actual: %p\n", contacto_actual);
 	printf("Direccion de memoria de contacto_actual: %p\n", &contacto_actual);
